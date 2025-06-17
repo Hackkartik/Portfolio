@@ -1,0 +1,74 @@
+.navbar{
+  background-color: black;
+  color : white;
+   padding-left: 4rem;
+  padding-right: 4rem;
+}
+@media (min-width:768px){
+  .navbar{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media (min-width:1024px){
+  .navbar{
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+.navbar-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+
+ }
+ @media (min-width:768px){
+  .navbar-container{
+    justify-content: space-between;
+  }
+}
+
+ .logo{
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: none;
+ }
+    @media(min-width: 768px){
+      .logo{
+        display: inline;
+      }
+    }
+
+    .nav-links{
+      display: flex;
+      gap: 1.5rem;
+    }
+ .nav-links a {
+  
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+ }
+  
+ 
+ .nav-links a:hover{
+  color: #9ca3af;
+ }
+ .connect-btn {
+display: none;
+color: white;
+background: linear-gradient(to right, #4ade80, #3b82f6);
+padding: 0.5rem 1rem;
+border-radius: 9999px;
+transition: transform 0.3s ease;
+
+ }
+ .connect-btn:hover{
+  transform: scale(1.05);
+ }
+ @media(min-width: 768px){
+      .connect-btn{
+        display: inline-block;
+      }
+    }
