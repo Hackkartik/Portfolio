@@ -38,6 +38,14 @@
                 </div>
               </div>
             </div>
+            <div className="about-item">
+              <label  className="about-label">NODEJS</label>
+              <div className="about-grow">
+                <div className="about-fill">
+
+                </div>
+              </div>
+            </div>
           </div>
           <div></div>
           </div>
